@@ -7,10 +7,13 @@ module.exports = {
     extend: {
       colors: {},
       spacing: {},
-      fontSize: {
+      fontSize: {},
 
-      },
-
+    },
+  },
+  variants: {
+    extend: {
+      gridTemplateColumns: ['responsive'],
     },
   },
   plugins: [require("@tailwindcss/typography")],
