@@ -27,6 +27,17 @@ a {
   @apply mt-24 mb-12
 }
 
+.layout-card-content {
+  @apply p-4 space-y-4
+}
+
+/*Styling and interactions for cards*/
+.card {
+  @apply block border-2 border-gray-100 rounded-lg overflow-hidden hover:bg-gray-100 hover:border-gray-200
+}
+
+/**/
+
 /*TODO: set up styles for h3 to h6 and body text*/
 
 h1 {
@@ -40,6 +51,7 @@ h2 {
 .text-subtle {
   @apply text-gray-500
 }
+
 
 /*:hover {
   background-color: bg-gray-100;
