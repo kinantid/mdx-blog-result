@@ -15,7 +15,7 @@ const options = {
 function Post({ data, content }) {
   return (
     <div>
-      <h1 className="font-bold text-7xl mt-24 mb-12">{data.title}</h1>
+      <h1 className="layout-section-title">{data.title}</h1>
       <time className="text-gray-500 italic">{data.date}</time>
       <p className="prose mt-12">
         <MDXRemote {...content} options={options} />

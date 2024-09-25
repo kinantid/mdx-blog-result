@@ -5,7 +5,7 @@ export default function Home({ posts }) {
   return (
     <div>
 
-      <h1 className="mt-24 mb-12">Latest Posts</h1>
+      <h1 className="layout-section-title">Latest Posts</h1>
       <div className="layout-grid">
         {posts.map((post) => (
           <PostCard
